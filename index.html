@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css" />
+    <style>
+        html,
+        body {
+            height: 100%
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 400px;
+        }
+
+        button {
+            width: 100%
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset class="uk-fieldset">
+            <div class="uk-margin">
+                <label for="">שמך</label>
+                <!-- 0 -->
+                <input class="uk-input" type="text" min="2" required placeholder="השם שלך" pattern="[א-ת ]{2}">
+            </div>
+            <div class="uk-margin">
+                <label for="">ל</label>
+                <select class="uk-select">
+                    <option value="meshotet.txt">אירוח משוטט</option>
+                    <option value="self.txt">אירוח עצמי</option>
+                </select>
+            </div>
+            <div class="uk-margin">
+                <label for="">נמען</label>
+                <!-- 1 -->
+                <input class="uk-input" type="text" min="2" required placeholder="שם הנמען" pattern="[ א-ת]{2}">
+            </div>
+            <div class="uk-margin">
+                <label for="">נושא</label>
+                <!-- 2 -->
+                <input class="uk-input" type="text" min="2" required placeholder="נושא הכותרת" pattern="[ A-z-א-ת]{2}">
+            </div>
+            <div class="uk-margin">
+                <label for="">מקצוע</label>
+                <!-- 3 -->
+                <input class="uk-input" type="text" required placeholder="מקצועו של הנמען" pattern="[ A-z-א-ת]{2}">
+            </div>
+            <div id="dis">
+                <div class="uk-margin">
+                    <label for="">קישור</label>
+                    <!-- 4 -->
+                    <input class="uk-input" required pattern="https:\/\/(www\.)?fxp\.co\.il\/forumdisplay\.php\?f=\d+" type="url" placeholder="קישור לפורום">
+                </div>
+            </div>
+            <div class="uk-margin" hidden>
+                <label for="">העתק את הכיתוב למטה לתוך תגובה</label>
+                <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+            </div>
+            <button class="uk-button uk-button-primary uk-width-1-1">צור הודעה</button>
+        </fieldset>
+    </form>
+
+    <script>
+        function getFormattedDate(date) {
+            const month = (1 + date.getMonth()).toString().padStart(2, '0');
+            const day = date.getDate().toString().padStart(2, '0');
+
+            return month + '/' + day + '/' + date.getFullYear();
+        }
+        
+        const regex = /<li class="navbit lastnavbit"><span>(.*)<\/span><\/li>/;
+        const textarea = document.querySelector("textarea");
+        const inputs = document.querySelectorAll('input');
+        const select = document.querySelector('select');
+        const form = document.querySelector('form');
+        let forumname = 'הכנס שם פורום';
+        form.addEventListener('submit', async function(event) {
+            event.preventDefault();
+            if (inputs[4].value != '') {
+                const text = await (await fetch('https://fxptest.000webhostapp.com/svs.php?url=' + inputs[4].value)).text();
+                const temp = text.match(regex).at(1);
+                if (temp == 'הודעת מערכת') {
+                    return alert('הקישור לא תקין וודא שהפורום נגיש למשתמשים');
+                } 
+                forumname = temp;
+            }
+            const url = select.selectedOptions[0].value;
+            const response = await (await fetch(url)).text();
+            const result = response.replace(/XX.XX.XXXX/, getFormattedDate(new Date()))
+                .replace(/YY/, inputs[0].value)
+                .replace(/FF/, inputs[1].value)
+                .replace(/RR/g, inputs[2].value)
+                .replace(/TT/, inputs[3].value)
+                .replace(/WW/, inputs[4].value)
+                .replace(/DD/, forumname);
+            textarea.value = result;
+            textarea.parentElement.hidden = false;
+        })
+        
+        select.addEventListener('change', function({target}) {
+            const bool = target.selectedOptions[0].value == 'self.txt';
+            textarea.parentElement.hidden = true;
+            inputs[4].required = !bool;
+            document.getElementById('dis').hidden = bool;
+        })
+    </script>
+</body>
+
+</html>
