@@ -1,0 +1,103 @@
+[CENTER][B][COLOR=#ff0000][IMG]https://i.imagesup.co/images2/55958b6a15ef6e0b4b41f173e1747204a933bc35.png[/IMG][/COLOR][/B][COLOR=#333333][FONT=arial][COLOR=#333333][FONT=Calibri]
+[/FONT][/COLOR][/FONT][/COLOR][/CENTER]
+[RIGHT][COLOR=#333333][FONT=arial][COLOR=#333333][FONT=Calibri]
+בזמן האחרון עבדתי על כלי עזר לתומכים ומפקחים (ולידור [URL="https://www.fxp.co.il/member.php?u=1313808"]_AceOne[/URL] הוסיף את העיצוב המטורף).[/FONT][/COLOR]
+[COLOR=#333333][FONT=Calibri]קישור לכלי עזר - [URL="https://whoami-fxp-tool.000webhostapp.com"]לינק[/URL][/FONT][/COLOR]
+[COLOR=#333333][FONT=Calibri]הסיסמה היא :
+[/FONT][/COLOR][/FONT][/COLOR]whywouldi[COLOR=#333333][FONT=arial]
+
+הכלי הוא אתר שבנוי בJavaScript ועם שימוש קטן בphp בשביל הסיסמה למניעת גישה למי שלא מורשה.
+כל המידע שמוצג בכלי עזר בחלקים כמו הסטט' נלקח בזמן אמת מהאתר, כך שאין צורך לעדכן כלום כמו בסטט הלפר שכבר קיים.
+
+[COLOR=#333333][FONT=Calibri]בכלי עזר יש כמה אפשרויות, לדוגמה הכנת תת ניק, בדיקה של מי המפקח לפי קטגוריה או פורום, כלי עזר לבדיקת סטט של מועמד לניהול ועוד...[/FONT][/COLOR]
+[COLOR=#333333][FONT=Calibri]לדעתי זה יכול מאוד לעזור לנו ולהקל על המון משימות ולאפשר לנו לבצע את העבודה שלנו בצורה טובה, מהירה ומדוייקת יותר.[/FONT][/COLOR]
+[COLOR=#333333][FONT=Calibri]יש עדיין קצת בעיות קלות, אך אני עובד על זה כל יום ומוסיף דברים חדשים/מתקן את הבעיות.[/FONT][/COLOR]
+
+[COLOR=#333333][FONT=Calibri]אשמח לשמוע מה דעתכם וגם אם יש לכם הצעות לשיפור/דברים נוספים שצריך להוסיף.[/FONT][/COLOR]
+
+[/FONT][/COLOR][/RIGHT]
+[CENTER][COLOR=#333333][FONT=arial][SIZE=6][COLOR=#008080][FONT=Calibri][B]הסבר מפורט יותר על השימוש[/B][/FONT][/COLOR][/SIZE][/FONT][/COLOR][/CENTER]
+[RIGHT][COLOR=#333333][FONT=arial][COLOR=#333333][FONT=Calibri]
+[FONT=arial][SIZE=3][B][U]בדיקת מפקח [/U]-[/B][/SIZE]
+מכניסים שם של פורום [B]או [/B]קטגוריה ([B]לא שניהם כי אז זה ימצא לפי שם הפורום)[/B] וזה מחזיר את שמות המפקחים עם קישור למשתמש שלהם ואת הקוד לתיוג שלהם.[/FONT]
+
+
+[FONT=arial][SIZE=3][B][U]בדיקת זכאות[/U] -
+[/B][/SIZE]מכניסים בז וזה מסדר את הצבעים בקוד צבע, ככה שניתן גם להעתיק מהנייד.[/FONT]
+[FONT=arial]חשוב להכניס את הב"ז בשורות נפרדות ושהנוסח יהיה תקין (כלומר שיהיה כתוב ימי ווינר, שינוי ניק, [/FONT]דרגת ה- FXP Gold למשך X ימים, נקודות FXP [FONT=arial]וכו' ועם המספרים כמובן)[/FONT]
+[/FONT][/COLOR][COLOR=#333333][FONT=arial][FONT=Calibri]
+
+[U][B][FONT=arial][SIZE=4]הכנת תת ניק -[/SIZE]
+[/FONT][/B][/U]יש 2 אפשרויות, תתי ניק רגילים ותתי ניק מיוחדים, ניתן להחליף בין האפשרויות בעזרת לחיצה על הכפתור "הגדרות רגילות לתת ניק או מיוחדות".
+
+[B]הגדרות רגילות :[/B]
+[FONT=arial]לבחור האם רוצים בולד, נוטה (italic) ואו צל, במידה ובוחרים בצל יפתח קלט נוסף של צבע הצל.
+[B]הגדרות מיוחדות :
+[/B]בהגדרות מיוחדים יהיו תתי ניק מיוחדים, יש לבחור אחד מהם, מומלץ להגדיר את הצבע כמו בתצוגה ולהשתמש בהם באנגלית (הם לא יראו טוב בעברית אלא אם כן תשנו את הפונט, גם לזה יש שם מדריך, תלחצו על הטקסט שנמצא בלמטה של ההגדרות המיוחדות וזה ישלח אתכם למדריך)
+[/FONT]
+[FONT=arial]לאחר מכן להכניס כל מה שצריך בשדות (טקסט, גודל, צבע טקסט וצבע צל אם יש צורך) ולאחר מכן ללחוץ על הכן תת ניק.[/FONT]
+שימו לב שניתן בצבע להגדיר או בכלי בחירה או להכניס קוד צבע (אם תכניסו קוד הצבע יהיה לפי הקוד ולא לפי הכלי בחירה)
+[FONT=arial]יופיעו 3 שדות מתחת שבאחד יהיה אורך תת הניק, באחד הקוד html שצריך להדביק באתר ובשלישי יהיה איך שתת הניק יראה.[/FONT]
+
+
+[U][B][FONT=arial][SIZE=4]הכנת סטט' -[/SIZE]
+
+[/FONT][/B][/U]יש 2 אפשרויות, אחת אוטומטית (מה שפתח גם ראשון), שבה מכניסים שם פורום וזה עושה סטט אוטומטית.
+האפשרות השנייה (אשר ניתן לעבור עליה בלחיצה על הכפתור של "סטט אוטומטית או ידנית") היא כמו בסטט הלפר, מכניסים קטגוריה וזה מביא רק את הקישורים למנהלים (זה מתעדכן אוטומטית ומסיר את המפקחים מהרשימה).
+
+אפשרות 1 (אוטומטית)
+[FONT=arial]לבחור את שם הפורום וללחוץ על Make Stat.[/FONT]
+[FONT=arial]תופיעה הודעה, ללחוץ אישור (לא יתחיל עד שלא תלחצו) ולאחר מכן יש לחכות עד שהכלי יכין את הסטט של כל המנהלים, ההכנה יכולה לתקוע קצת את הדף (אני אסדר את זה בעתיד), יש טיימר שהוא בערך אמור להיות מדויק של כמה זמן ההכנה תקח, זה לא אמור לקחת יותר מ20 שניות גם לפורומים עם המון מנהלים.[/FONT]
+
+אפשרות 2 (ידנית) :
+להכניס את שם הקטגוריה וללחוץ על MakeStat.
+תופיע הודעה, ללחוץ על אישור ולחכות כמה שניות עד שיופיע הטקסט.
+יופיע שם כל שם פורום ואחריו את הקישור לבדיקה של אשכולות פעילים ושמות המנהלים עם קישור לבדיקה של התגובות והאשכולות שלהם.
+במידה ואין מנהלים בפורום זה יכתוב הודעה באדום, בנוסף זה מתעלם מהמפקחים ולא מכניס אותם לרשימה.
+
+
+[B]הערות על הסטט האוטומטית :[/B]
+*במידה ויש את ההודעה שמשהו לא פעל, יש לבדוק ידנית על ידי כניסה לקישור ולחיצה על חיפוש (מוביל ישירות לחיפוש עם הערכים כמו בסטט הלפר).[/FONT]
+[FONT=Calibri][FONT=arial]*הוספתי אחרי כל תגובות/אשכולות קישור גם לבדיקה עצמית, התוצאות בטוח נכונות באשכולות ותגובות כך שאין צורך לוודא [/FONT][/FONT][B], [SIZE=3]אך כן יש לעבור על התגובות [/SIZE][/B][SIZE=3][B]של המנהל ולראות את התוכן שלהן ולוודא שהן לא תגובות ספאם.[/B][/SIZE][/FONT][/COLOR][/FONT][/COLOR]
+[COLOR=#333333][FONT=arial][COLOR=#333333][FONT=arial][B]
+
+[SIZE=3][FONT=Calibri][U]בדיקת מועמד לניהול -[/U][/FONT][/SIZE][/B]
+[FONT=Calibri]מכניסים את שם הפורום ושם המשתמש של המועמד והכלי יחזיר את הסטט שלו (שבועי, דו-שבוע , חודשי ומונה הודעות) ובנוסף את האשכולות הפעילים [B](יש לשים לב שאם המספר הוא מעל 200 יש לבדוק ידנית).[/B][/FONT]
+
+
+[/FONT][/COLOR][/FONT][/COLOR][B][SIZE=3][FONT=Calibri][U]בדיקת רף -[/U][/FONT][/SIZE][/B][COLOR=#333333]
+אין יותר מידי מה להסביר כאן, זה בידיוק כמו שהכותרת מתארת.
+מכניסים את שם הקטגוריה, מחכים כמה שניות (יכול לקחת איזה 5-10 שניות) ולאחר מכן מודפס הרף היומי, רשימה של מי עבר ומי לא ובנוסף רף מפקחים.
+
+[SIZE=3][FONT=Calibri][U][B]הודעה למנהל חדש - 
+[/B][/U][/FONT][/SIZE]הסבר מפורט יותר על הכלי ניתן למצוא באשכול "[/COLOR][URL="https://www.fxp.co.il/showthread.php?t=20281749"]הכלי הכי טוב אברררר!!!!!![/URL][COLOR=#333333]"[/COLOR]
+[COLOR=#333333][FONT=Calibri]
+
+[SIZE=4][B][U]קוד להעלאת Gif לפרופיל:[/U][/B][/SIZE][/FONT][/COLOR][/RIGHT]
+[CODE]
+function uploadImage(x) {
+    let body = new FormData;
+    body.append('fileToUpload',x);
+    return new Promise(e => fetch("/uploads/difup.php", { method: "POST", body }).then(x => x.json())
+    .then(x => e(x.image_link.replace("i.imagesup.co", "profile.fcdn.co.il"))));
+}
+   
+
+
+function setProfileImage(x) {
+    let body = new FormData;
+    body.append("do", "update_profile_pic");
+    body.append("profile_url", x);
+    body.append("user_id", USER_ID_FXP);
+    body.append("securitytoken", SECURITYTOKEN);
+    return new Promise(e => fetch("/private_chat.php",{ method: "POST", body }).then(x => x.text()).then(x => "ok" == x && e()));
+}
+
+
+function openFileDialog() {
+    let x = document.createElement("input");
+    x.type = "file", x.accept = "image/gif", x.click(),
+    x.onchange = (x => uploadImage(x.srcElement.files[0]).then(x => setProfileImage(x).then(() => window.location.reload())))
+}
+"complete" == document.readyState && "www.fxp.co.il" == window.location.host && "guest" != SECURITYTOKEN ? openFileDialog() : alert("Please run this script on fxp.co.il (you must be logged in)")
+[/CODE]
