@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    היכל התהילה<br>
+    https://www.fxp.co.il/showthread.php?t=20773730<br>
+    https://www.fxp.co.il/newthread.php?do=newthread&f=576<br/>
+<br>
+    <input placeholder="שם משתמש">
+    <input placeholder="קישור לאשכול">
+    <button>צור נוסח</button>
+    <script>
+        const nn = document.querySelectorAll('input')
+        //todo tests
+        async function init() {
+            const uu = new URL(nn[1].value)
+        const ff = new URLSearchParams(uu.search)
+        console.log(uu, ff)
+
+            const r = await fetch('https://fxptest.000webhostapp.com/fxpapi/thread.php?t=' + ff.get('t'))
+            const t = await r.json();
+            const rr = await fetch('https://fxptest.000webhostapp.com/fxpapi/profile.php?username=' + nn[0].value)
+            const tt = await rr.json();
+            console.log(t, tt);
+                    //todo template
+
+        }
+
+        document.querySelector('button').addEventListener('click', init);
+        </script>
+    <footer>
+        יוצר הכלי המקורי<br>
+        https://www.fxp.co.il/member.php?u=749522 <br>
+        https://fxp-hall-of-fame.vercel.app/ <br>
+        שונה ועודכן על ידי
+        https://www.fxp.co.il/member.php?u=1579492
+    </footer>
+</body>
+</html>
