@@ -28,7 +28,6 @@
                 e.preventDefault()
                 const uu = new URL(nn[1].value)
                 const ff = new URLSearchParams(uu.search)
-                console.log(uu, ff)
                 const dd = 'https://fxptest.000webhostapp.com/fxpapi/thread.php?t=' + ff.get('t'); //temp
                 const r = await fetch(dd)
                 const t = await r.json();
@@ -80,11 +79,8 @@
                 data: {
                     src: async (query) => {
                         try {
-                            // Fetch Data from external Source
                             const source = await fetch(`https://fxptest.000webhostapp.com/fxpapi/user.php?user=${query}`);
-                            // Data should be an array of `Objects` or `Strings`
-                            const data = await source.json();
-                            
+                            const data = await source.json();                            
                             return data;
                         } catch (error) {
                             return error;
@@ -104,6 +100,8 @@
             function remixn1v(t, tt, dd) {
                 console.log(t, tt);
                 //todo custom temp
+                const haveUser = Object.keys(tt).length > 0;
+                const haveThread = Object.keys(t).length > 0;
                 const log = `[CENTER][IMG]https://images.weserv.nl/?url=i.imgur.com/DPZXQRv.png[/IMG][SIZE=3][FONT=tahoma]
                 [/FONT][/SIZE][IMG]https://i.imagesup.co/images2/663f22853101fd381160b0501b4bd28d79ff6076.png[/IMG]
                 [SIZE=5][COLOR=#daa520][FONT=almoni-dl][B]הכרזת נבחרי היכל התהילה[/B][/FONT][/COLOR][/SIZE][SIZE=3][FONT=tahoma]
@@ -114,7 +112,7 @@
                 [SIZE=3][FONT=tahoma]
                 [/FONT][/SIZE][IMG]https://i.imagesup.co/images2/fd2d0a1d1c4cfffc0dd23a5ba8f3557e165a2105.png[/IMG]
                 ${
-                    Object.keys(tt).length
+                    haveUser
                         ? `[SIZE=3][FONT=tahoma][IMG]https://images.weserv.nl/?url=i.imgur.com/ThPiUoI.png[/IMG][SIZE=5][U][B][URL="https://www.fxp.co.il/member.php?u=${tt.user_id}"][COLOR=#daa520]${tt.username}[/COLOR][/URL][/B][/U][/SIZE][IMG]https://images.weserv.nl/?url=i.imgur.com/ThPiUoI.png[/IMG]
                 [/FONT][/SIZE][IMG]https://i.imagesup.co/images2/b7b72934938d6820febebbab3078597a1829ea76.png[/IMG][SIZE=3][FONT=tahoma]
                 [/FONT][FONT=tahoma][COLOR=#000000]במשך השבוע האחרון הפגנת פעילות גבוהה, השתתפות באשכולות ופעילויות. [/COLOR]הנך זוכה בלא פחות מ- [B][COLOR=#43c6db]7 ימי ווינר, [/COLOR][/B][B][COLOR=#a4de40]30 נקודות FxP[/COLOR] [COLOR=#000000]ואף תת ניק מעוצב[/COLOR][/B][B], כל הכבוד![/B][/FONT][/SIZE]`
@@ -124,7 +122,7 @@
                 [IMG]https://images.weserv.nl/?url=i.imgur.com/tMcj3xu.png[/IMG][SIZE=3][FONT=tahoma]
                 [/FONT][/SIZE][IMG]https://i.imagesup.co/images2/03ead3e48ea396065b11dd750c04e2a6b2ba9f78.png[/IMG]
                 ${
-                    Object.keys(t).length
+                    haveThread
                         ? `[SIZE=3][FONT=tahoma][IMG]https://images.weserv.nl/?url=i.imgur.com/ThPiUoI.png[/IMG][SIZE=5][URL="https://www.fxp.co.il/member.php?u=${t.post_user.user_id}"][U][B][COLOR=#daa520]${t.post_user.username}[/COLOR][/B][/U][/URL][/SIZE][IMG]https://images.weserv.nl/?url=i.imgur.com/ThPiUoI.png[/IMG]
                 
                 [SIZE=4][U][B][COLOR=#daa520]אשר פתח את האשכול[/COLOR][/B][/U]: "[URL="${dd}"][B]${t.title}[/B][/URL]"[/SIZE]
@@ -135,7 +133,7 @@
                 [SIZE=3][FONT=tahoma]
                             [B][COLOR=#008080]
                 ${
-                    Object.keys(t).length > 0 || Object.keys(tt).length > 0
+                    haveThread || haveUser
                         ? `[U][SIZE=4]מזל טוב ובהצלחה בשבוע הבא לכולם![/SIZE][/U]`
                         : `[U][SIZE=4]בהצלחה בשבוע הבא לכולם![/SIZE][/U]`
                 }
@@ -145,10 +143,11 @@
                 הנהלת היכל התהילה – FxP. [/COLOR]:flowers:[/B][/SIZE][/FONT][FONT=tahoma]
                 [/FONT][/SIZE][IMG]https://images.weserv.nl/?url=i.imgur.com%2F3UsHYTn.png[/IMG][/CENTER]`
                 console.log(log);
-                document.write(log);
-            
+                navigator.clipboard.writeText(log).then(function() {
+                    alert('הנוסח הועתק');
+                });
+                
             }
-            
         </script>
         <footer>
             יוצר הכלי המקורי<br>
