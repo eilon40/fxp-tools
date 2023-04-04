@@ -1,0 +1,36 @@
+<title>How To Use Autocomplete</title>  
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">  
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>  
+    <script>  
+    $(function() { 
+      const _no_profile_image = 'https://static.fcdn.co.il/dyn/projects/privatemessage/icons/usericonprofile.svg';
+ 
+      $( "#name" ).autocomplete({  
+        source: function( request, response ) {
+          console.log(request.term)
+          $.post('https://fxptest.000webhostapp.com/fxpapi/user.php?user='+request.term, function(data) {
+            response( $.map( data, function( item ) {   
+              return {
+                label: item.username,
+                value: item.usernamenormal,
+                imgsrc: item.profilepic === 0 ? _no_profile_image : 'https://i.imagesup.co' + item.profilepic
+              }
+
+            }));  
+          },"json") 
+        }  
+      }).data( "ui-autocomplete" )._renderItem = function( ul, item ) {  
+           return $( "<li></li>" )  
+               .data( "item.autocomplete", item )  
+               .append( "<a>" + "<img style='width:25px;height:25px;background-color:rgba(96,125,139,.17);' src='" + item.imgsrc + "' /> " + item.label+ "</a>" )  
+               .appendTo( ul );  
+       };  
+     });  
+     </script>  
+      
+      
+    <div class="ui">  
+      <label for="name">Name: </label>  
+      <input id="name">  
+    </div>
