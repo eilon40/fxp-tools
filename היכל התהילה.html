@@ -13,10 +13,12 @@
         https://www.fxp.co.il/showthread.php?t=20773730<br>
         https://www.fxp.co.il/newthread.php?do=newthread&f=576<br />
         <br>
-        <input id="autoComplete" type="search" dir="ltr" spellcheck=false autocorrect="off" autocomplete="off" autocapitalize="off">
+        <form>
+        <input id="autoComplete" type="search" dir="ltr" spellcheck=false autocorrect="off" required autocomplete="off" autocapitalize="off">
         
-        <input type="url" pattern="https:\/\/(www\.)?fxp\.co\.il\/forumdisplay\.php\?f=\d+" placeholder="קישור לאשכול">
-        <button>צור נוסח</button>
+        <input type="url" pattern="https:\/\/(www\.)?fxp\.co\.il\/forumdisplay\.php\?f=\d+" required placeholder="קישור לאשכול">
+        <input type="submit" value="צור נוסח">
+        </form>
         <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
         
         <script>
@@ -34,8 +36,8 @@
                 remixn1v(t, tt, dd);
             }
             
-            document.querySelector('button')
-                .addEventListener('click', init);
+            document.querySelector('form')
+                .addEventListener('submit', init);
             const autoCompleteJS = new autoComplete({
                 selector: "#autoComplete",
                 placeHolder: "שם משתמש",
