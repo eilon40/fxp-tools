@@ -16,7 +16,7 @@
         <form>
         <input id="autoComplete" type="search" dir="ltr" spellcheck=false autocorrect="off" required autocomplete="off" autocapitalize="off">
         
-        <input type="url" pattern="https:\/\/(www\.)?fxp\.co\.il\/forumdisplay\.php\?f=\d+" required placeholder="קישור לאשכול">
+        <input type="url" pattern="https:\/\/(www\.)?fxp\.co\.il\/showthread\.php\?t=\d+" required placeholder="קישור לאשכול">
         <input type="submit" value="צור נוסח">
         </form>
         <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
@@ -24,7 +24,8 @@
         <script>
             const nn = document.querySelectorAll('input')
             //todo tests
-            async function init() {
+            async function init(e) {
+                e.preventDefault()
                 const uu = new URL(nn[1].value)
                 const ff = new URLSearchParams(uu.search)
                 console.log(uu, ff)
@@ -144,7 +145,7 @@
                 הנהלת היכל התהילה – FxP. [/COLOR]:flowers:[/B][/SIZE][/FONT][FONT=tahoma]
                 [/FONT][/SIZE][IMG]https://images.weserv.nl/?url=i.imgur.com%2F3UsHYTn.png[/IMG][/CENTER]`
                 console.log(log);
-                alert(log);
+                document.write(log);
             
             }
             
