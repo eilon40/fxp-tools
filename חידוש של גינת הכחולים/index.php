@@ -47,8 +47,11 @@ if ($id == 4) {
             </form>
 
             <form onsubmit="onSubmitCheck(event)">
-                    <input type="text" name="username" placeholder="שם משתמש" required />
+                <input type="text" name="username" placeholder="שם משתמש" required />
                     <select name="forum">
+                        <!--<option value="">--אנא בחר פורום--</option>-->
+
+                    
                         <?php foreach ($obj->forums as $forum):
                             echo '<option value="' .$forum->id . '">' . $forum->title . '</option>';
                         endforeach; ?>
@@ -75,9 +78,11 @@ if ($id == 4) {
         
                 </fieldset>
             </form>
+
         </center>
-        <div id="resultel"></div>
-        <pre id="bbcodeel"></pre>
+        
+                    <div id="resultel"></div>
+
 * העקיפה לחיפוש הודעות ללא הגבלה תוקנה בעקבות כך יתכן שהרף היומי ובדיקת מועמד יחזירו תוצאות שגויות
 <br/>
   *     מבדיקות שערכתי האתר באחסון הנוכחי מאפשר לקבל תוצאות תוך 10 עד 20 שניות <br>
@@ -313,7 +318,7 @@ if ($id == 4) {
             copyText(bbcode)
             const html = all.map(user =>`${user} עשה <a href="https://www.fxp.co.il/search.php?search_type=1&contenttype=vBForum_Post&searchuser=${user}&childforums=0&exactname=1&replyless=0&searchdate=1&beforeafter=after&starteronly=0&showposts=1&do=process" target="_blank">${temp[user]}</a> הודעות היום`);
             resultel.innerHTML = '<b style="color:red">לא מציג הודעות שנשלחו בחדרי הנהלה ומעלה</b><br/><b>לבדיקת התוצאות לחצו על המספר</b><br/>' + html.join("<br/>");
-            bbcodeel.textContent = bbcode;
+            resultel.innerHTML += '<pre>' + bbcode + '</pre>';
             toggle()
             console.timeEnd('raff yoami');
         }
@@ -358,6 +363,9 @@ if ($id == 4) {
             const forum =  event.target.forum.value;
             const username = event.target.username.value;
             const select = event.target.manager;
+            const mres = prompt('הזמן מדוע נבחר מנהל זה');
+            const ures = prompt('הזמן מדוע נבחר משתמש זה');
+
             if (select.value) {
                 const user = await apiFetch('profile.php?username=' + username);
                 bbcode = `
@@ -378,8 +386,8 @@ if ($id == 4) {
                 [TD="align: center"][URL="https://www.fxp.co.il/member.php?u=${user.user_id}"][COLOR=#000000][SIZE=4]${user.username}[/SIZE][/COLOR][/URL][/TD]
                 [/TR]
                 [TR]
-                [TD="align: center"][FONT=open sans hebrew]הכנס סיבה כאן[/FONT][/TD]
-                [TD="align: center"][FONT=open sans hebrew]הכנס סיבה כאן[/FONT][/TD]
+                [TD="align: center"][FONT=open sans hebrew]${mres}[/FONT][/TD]
+                [TD="align: center"][FONT=open sans hebrew]${ures}[/FONT][/TD]
                 [/TR]
                 [/TABLE]
                 [/CENTER]`;
@@ -474,7 +482,7 @@ if ($id == 4) {
             console.timeEnd('uncomments');
         }
         
-            function toggle() {
+            function toggle(string) {
                 const buttons = document.querySelectorAll('input[type=submit]');
                 for (button of buttons) {
                     button.disabled = !button.disabled
