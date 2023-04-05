@@ -7,3 +7,6 @@ http://fxptest.000webhostapp.com/masov.html
 מהירות הכלי תלויה בכמות האנשים שמשתמשים באותו זמן ב api
 
 https://fxptest.000webhostapp.com/blue/3
+
+
+https://youtu.be/YPTIgPIe2c0
