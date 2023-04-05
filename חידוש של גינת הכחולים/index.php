@@ -78,7 +78,11 @@ if ($id == 4) {
         </center>
         <div id="resultel"></div>
         <pre id="bbcodeel"></pre>
-        העקיפה לחיפוש הודעות ללא הגבלה תוקנה בעקבות כך יתכן שהרף היומי ובדיקת מועמד יחזירו תוצאות שגויות
+* העקיפה לחיפוש הודעות ללא הגבלה תוקנה בעקבות כך יתכן שהרף היומי ובדיקת מועמד יחזירו תוצאות שגויות
+<br/>
+  *     מבדיקות שערכתי האתר באחסון הנוכחי מאפשר לקבל תוצאות תוך 10 עד 20 שניות <br>
+ועוד שבאחסון פרטי יכול לקחת עד 1 ל4 שניות
+מנסה לחפש אחסון אחר על מנת לאפשר ביצועים טובים יותר
         <style>
         .swal-text {
             direction: rtl; 
@@ -286,7 +290,7 @@ if ($id == 4) {
         async function handleSubmit(event)  {
             console.time('raff yoami');
             event.preventDefault();
-            event.submitter.disabled = true;
+            toggle()
             const { owners, forums } = database,
                 admins = [...new Set(Object.values(forums).flatMap(({ members }) => Object.keys(members || {})))],
                 all = [...new Set([...admins, ...owners])];
@@ -310,7 +314,7 @@ if ($id == 4) {
             const html = all.map(user =>`${user} עשה <a href="https://www.fxp.co.il/search.php?search_type=1&contenttype=vBForum_Post&searchuser=${user}&childforums=0&exactname=1&replyless=0&searchdate=1&beforeafter=after&starteronly=0&showposts=1&do=process" target="_blank">${temp[user]}</a> הודעות היום`);
             resultel.innerHTML = '<b style="color:red">לא מציג הודעות שנשלחו בחדרי הנהלה ומעלה</b><br/><b>לבדיקת התוצאות לחצו על המספר</b><br/>' + html.join("<br/>");
             bbcodeel.textContent = bbcode;
-            event.submitter.disabled = false;
+            toggle()
             console.timeEnd('raff yoami');
         }
 
@@ -346,9 +350,10 @@ if ($id == 4) {
             //todo
             //ליצור מערכת תבניות
             // userscript שמכריז ושולח הודעות באופן אוטומטי
+            // הסבר למנהל ולמשתמש
             console.time();
             event.preventDefault();
-            event.submitter.disabled = true;
+            toggle()
             let bbcode;
             const forum =  event.target.forum.value;
             const username = event.target.username.value;
@@ -437,7 +442,7 @@ if ($id == 4) {
             }
             copyText(bbcode);
             resultel.innerText = bbcode;
-            event.submitter.disabled = false;
+            toggle()
             console.timeEnd();
         }
 
@@ -455,7 +460,8 @@ if ($id == 4) {
         async function nocomm(event) {
             console.time('uncomments');
             event.preventDefault();
-            event.submitter.disabled = true;
+                        toggle()
+
             const responses = database.list.flatMap(async function(forumID) {
                 const data = await apiFetch('uncommentsv2.php?f=' + forumID);
                 return data.filter(Boolean).join('<br />');
@@ -464,10 +470,17 @@ if ($id == 4) {
             resultel.innerHTML = data.filter(Boolean).join('<br />'); 
             const code = 'javascript:copyText([...document.querySelectorAll(\'[data-copy]\')].map(element => element.dataset.copy).join(\'\\n\'))';
             resultel.innerHTML += '<br /><br /><button onclick="'+code+'">העתק BBCODE</button>' 
-            event.submitter.disabled = false;
+            toggle()
             console.timeEnd('uncomments');
         }
-            
+        
+            function toggle() {
+                const buttons = document.querySelectorAll('input[type=submit]');
+                for (button of buttons) {
+                    button.disabled = !button.disabled
+                }
+            }
+
         </script>
     </body>
 </html>
