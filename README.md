@@ -4,6 +4,6 @@ https://greasyfork.org/en/scripts/459668-%D7%90%D7%A9%D7%9B%D7%95%D7%9C%D7%95%D7
 http://fxptest.000webhostapp.com/masov.html
 
 גינת הכחולים 
-
+מהירות הכלי תלויה בכמות האנשים שמשתמשים באותו זמן ב api
 
 https://fxptest.000webhostapp.com/blue/3
