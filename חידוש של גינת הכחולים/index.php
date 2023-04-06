@@ -36,6 +36,8 @@ if ($id == 4) {
     <body dir="rtl">
 
         <center>
+            <div id="online" style="display:none;">0</div>
+
             <img src="images/logo.png" alt="logo" title='עוצב ע"י אבישי מפקח גרפיקה ואומנות' /><br />
             <form onsubmit="handleSubmit(event)"><input type="submit" value="צור רף יומי" /></form>
             <form onsubmit="handleStat(event)">
@@ -193,6 +195,16 @@ if ($id == 4) {
         .footer .site-icon-holder {
             padding: unset;
         }
+                .autocomplete-suggestions {
+            text-align: left; cursor: default; border: 1px solid #ccc; border-top: 0; background: #fff; box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+        
+            /* core styles should not be changed */
+            position: absolute; display: none; z-index: 9999; max-height: 254px; overflow: hidden; overflow-y: auto; box-sizing: border-box;
+        }
+        .autocomplete-suggestion { position: relative; padding: 0 .6em; line-height: 23px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 1.02em; color: #333; }
+        .autocomplete-suggestion b { font-weight: normal; color: #1f8dd6; }
+        .autocomplete-suggestion.selected { background: #f0f0f0; }
+
         </style>
 	<footer class="footer">
             <div class="footer__addr">
@@ -235,7 +247,8 @@ if ($id == 4) {
                     <ul class="nav__ul">
                         <li>
                             <div class="setlinks">
-                                <a href="https://whoami-fxp-tool.000webhostapp.com/old/tool.php">הודעה למנהל חדש</a>
+                                <!--<a href="https://whoami-fxp-tool.000webhostapp.com/old/tool.php">הודעה למנהל חדש</a>-->
+                                <a href="https://eilon40.github.io/fxp-tools/%D7%94%D7%99%D7%9B%D7%9C%20%D7%94%D7%AA%D7%94%D7%99%D7%9C%D7%94.html">היכל התהילה</a>
                             </div>
                         </li>
                         <li>
@@ -270,9 +283,30 @@ if ($id == 4) {
             </ul>
         </footer>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./auto-complete.min.js"></script>
+
         <script>
         const database = <?= json_encode($obj) ?>;
-        
+     new autoComplete({
+        selector: 'input[name=username]',
+        minChars: 2,
+        source: async function(name, suggest){
+
+
+            try {
+                const data = await apiFetch('user.php?user=' + name)
+
+                let matches = []  
+                for (i=0; i< data.length; i++) {
+                    matches.push(data[i].usernamenormal);
+                }    
+                suggest(matches);
+            } catch(e) {
+                console.log('not found');
+            }
+         }
+    });
+       
         function copyText(text) {
             navigator.clipboard.writeText(text).then(function() {
                 console.log('Async: Copying to clipboard was successful!');
@@ -494,7 +528,7 @@ if ($id == 4) {
             console.timeEnd('uncomments');
         }
         
-            function toggle() {
+            function toggle(string) {
                 const buttons = document.querySelectorAll('input[type=submit]');
                 for (button of buttons) {
                     button.disabled = !button.disabled
