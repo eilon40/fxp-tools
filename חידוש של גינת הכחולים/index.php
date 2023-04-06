@@ -49,9 +49,8 @@ if ($id == 4) {
             <form onsubmit="onSubmitCheck(event)">
                 <input type="text" name="username" placeholder="שם משתמש" required />
                     <select name="forum">
-                        <!--<option value="">--אנא בחר פורום--</option>-->
-
-                    
+                        <option value="">--אנא בחר פורום--</option>
+                
                         <?php foreach ($obj->forums as $forum):
                             echo '<option value="' .$forum->id . '">' . $forum->title . '</option>';
                         endforeach; ?>
@@ -249,6 +248,11 @@ if ($id == 4) {
                                 <a href="https://supervisor-tools-fxp.vercel.app/" target="_blank">PikuahToolV1</a>
                             </div>
                         </li>
+                        <li>
+                            <div class="setlinks">
+                                <a href="https://eilon40.github.io/fxp-tools/" target="_blank">אירוחים</a>
+                            </div>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav__item">
@@ -363,10 +367,14 @@ if ($id == 4) {
             const forum =  event.target.forum.value;
             const username = event.target.username.value;
             const select = event.target.manager;
-            const mres = prompt('הזמן מדוע נבחר מנהל זה');
+            if (select.value && forum) {
+                //todo שבןעי   
+                alert('שבועי');
+            }
+            else if (select.value) {
+                            const mres = prompt('הזמן מדוע נבחר מנהל זה');
             const ures = prompt('הזמן מדוע נבחר משתמש זה');
 
-            if (select.value) {
                 const user = await apiFetch('profile.php?username=' + username);
                 bbcode = `
                 [CENTER]
@@ -391,7 +399,7 @@ if ($id == 4) {
                 [/TR]
                 [/TABLE]
                 [/CENTER]`;
-            } else {
+            } else if (forum) {
                 const profile = await apiFetch('profile.php?username=' + username);
                 const raff = await apiFetch('raff.php?user=' + username + '&id=' + forum);
                 const uncomments = await apiFetch('uncommentsv2.php?f=' + forum);
@@ -447,6 +455,10 @@ if ($id == 4) {
                 [TD][/TD]
                 [/TR]
                 [/TABLE]`
+            } else {
+                            toggle()
+                return alert('אנא בחר פעולה')
+                
             }
             copyText(bbcode);
             resultel.innerText = bbcode;
@@ -482,7 +494,7 @@ if ($id == 4) {
             console.timeEnd('uncomments');
         }
         
-            function toggle(string) {
+            function toggle() {
                 const buttons = document.querySelectorAll('input[type=submit]');
                 for (button of buttons) {
                     button.disabled = !button.disabled
