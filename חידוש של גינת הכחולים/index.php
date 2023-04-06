@@ -75,7 +75,7 @@ if ($id == 4) {
                     </select>
 
         
-                    <input type="submit" value='בדוק מועמד / צור ממו"ח' />
+                    <input type="submit" value='בודק מועמד | צור ממו"ח/פ'/>
         
                 </fieldset>
             </form>
@@ -222,17 +222,17 @@ if ($id == 4) {
                     <ul class="nav__ul">
                         <li>
                             <div class="setlinks">
-                                <a href="https://greasyfork.org/he/scripts/410121-%D7%94%D7%9E%D7%A9%D7%A8%D7%AA%D7%AA-%D7%A9%D7%9C-%D7%A0%D7%99%D7%91">המשרתת של ניב</a>
+                                <a href="https://greasyfork.org/he/scripts/410121">המשרתת של ניב</a>
                             </div>
                         </li>
                         <li>
                             <div class="setlinks">
-                                <a href="https://greasyfork.org/he/scripts/404540-%D7%94%D7%A9%D7%95%D7%98%D7%A8-%D7%A9%D7%9C-%D7%A0%D7%99%D7%91">השוטר של ניב</a>
+                                <a href="https://greasyfork.org/he/scripts/404540">השוטר של ניב</a>
                             </div>
                         </li>
                         <li>
                             <div class="setlinks">
-                                <a href="https://greasyfork.org/he/scripts/396903-anti-fishing">anti fishing</a>
+                                <a href="https://greasyfork.org/he/scripts/396903">anti fishing</a>
                             </div>
                         </li>
                         <li>
@@ -291,15 +291,9 @@ if ($id == 4) {
         selector: 'input[name=username]',
         minChars: 2,
         source: async function(name, suggest){
-
-
             try {
-                const data = await apiFetch('user.php?user=' + name)
-
-                let matches = []  
-                for (i=0; i< data.length; i++) {
-                    matches.push(data[i].usernamenormal);
-                }    
+                const data = await apiFetch('user.php?user=' + name);
+                const matches = data.map(item => item.usernamenormal);
                 suggest(matches);
             } catch(e) {
                 console.log('not found');
@@ -402,8 +396,30 @@ if ($id == 4) {
             const username = event.target.username.value;
             const select = event.target.manager;
             if (select.value && forum) {
-                //todo שבןעי   
-                alert('שבועי');
+                 bbcode = `
+        [CENTER][TABLE="width: 900, align: center"]
+        [TR]
+        [TD][IMG]https://images.weserv.nl/?url=i.imgur.com/9ant8gJ.png[/IMG][/TD]
+        [/TR]
+        [/TABLE]
+        [/CENTER]
+        [TABLE="width: 900, align: center"]
+        [TR="bgcolor: #76ACE4"]
+        [TD="align: center"][COLOR=#ffffff][SIZE=6][B][FONT=&amp]מנהל השבוע:[/FONT][/B][/SIZE][/COLOR][/TD]
+        [TD="align: center"][COLOR=#ffffff][SIZE=6][B][FONT=&amp]משתמש השבוע:[/FONT][/B][/SIZE][/COLOR][/TD]
+        [TD="align: center"][COLOR=#ffffff][SIZE=6][B][FONT=&amp]פורום השבוע:[/FONT][/B][/SIZE][/COLOR][/TD]
+        [/TR]
+        [TR]
+        [TD="align: center"][URL="https://www.fxp.co.il/member.php?u=${select.value}"][B][COLOR=#ff0000]${select.selectedOptions[0].text}[/COLOR][/B][/URL][/TD]
+        [TD="align: center"][URL="https://www.fxp.co.il/member.php?u=todo"][B][COLOR=#000000]todo[/COLOR][/B][/URL][/TD]
+        [TD="align: center"][B][URL="https://www.fxp.co.il/forumdisplay.php?f=${forum}"][COLOR=#daa520]${database.forums[forum].title}[/COLOR][/URL][/B][/TD]
+        [/TR]
+        [TR]
+        [TD="align: center"][COLOR=#000000][FONT=almoni-dl]הסבר[/FONT][/COLOR][/TD]
+        [TD="align: center"][FONT=open sans hebrew]הסבר[/FONT][/TD]
+        [TD="align: center"][COLOR=#000000][FONT=almoni-dl]הסבר[/FONT][/COLOR][/TD]
+        [/TR]
+        [/TABLE]`;
             }
             else if (select.value) {
                             const mres = prompt('הזמן מדוע נבחר מנהל זה');
@@ -490,10 +506,11 @@ if ($id == 4) {
                 [/TR]
                 [/TABLE]`
             } else {
-                            toggle()
+                toggle()
                 return alert('אנא בחר פעולה')
                 
             }
+            console.log(bbcode);
             copyText(bbcode);
             resultel.innerText = bbcode;
             toggle()
@@ -528,7 +545,7 @@ if ($id == 4) {
             console.timeEnd('uncomments');
         }
         
-            function toggle(string) {
+            function toggle() {
                 const buttons = document.querySelectorAll('input[type=submit]');
                 for (button of buttons) {
                     button.disabled = !button.disabled
