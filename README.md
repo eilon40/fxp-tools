@@ -9,5 +9,6 @@ http://fxptest.000webhostapp.com/masov.html
 משום מה google חושב שאני פישינג חח בטיפול
 https://fxptest.000webhostapp.com/blue/3
 
+https://fxptest.000webhostapp.com/blue/%D7%9E%D7%95%D7%96%D7%99%D7%A7%D7%94
 
 https://youtu.be/YPTIgPIe2c0
