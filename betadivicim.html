@@ -1,0 +1,54 @@
+<input type="url" placeholder="קישור לתגובה/לאשכול">
+<input type="email" placeholder="איימל">
+<input type="button" value="clik">
+<script>
+const inp = document.querySelectorAll('input');
+inp[2].onclick = async function() {
+const url = new URL(inp[0].value);
+console.log(url);
+const d = new URLSearchParams(url.search);
+console.log(d.get('t'));
+console.log(d.get('p'));
+
+const ff = await fetch('https://fxptest.000webhostapp.com/fxpapi/thread.php?t=' + d.get('t')).then(r => r.json());
+console.log(ff);
+const iddd = 
+ff.post_user.user_id
+const fff = await fetch('https://fxptest.000webhostapp.com/fxpapi/profile.php?u=' + iddd).then(r => r.json());
+console.log(fff);
+let dddd = fff.last_seen
+if (dddd.includes('היום')) {
+dddd = new Date().toLocaleDateString('en-GB') + 
+dddd.split('היום')[1]
+} else if (dddd.includes('אתמול')) {
+var df = new Date();
+df.setDate(d.getDate() - 1);
+dddd = df.toLocaleDateString('en-GB').replaceAll('/', '-') + 
+dddd.split('אתמול')[1]
+
+}
+
+let msg = `
+[FONT=open sans hebrew][COLOR=#008080][SIZE=5][B]דיווח קריטי [/B][/SIZE][/COLOR][SIZE=5][B]גולש אובדני[/B][/SIZE]
+
+[SIZE=3][U][B]פרופיל המשתמש:
+[/B][/U][QUOTE]https://www.fxp.co.il/member.php?u=${ff.post_user.user_id}[/QUOTE]
+
+[U][B]קישור לאשכול:
+[/B][/U][QUOTE]${url.href}[/QUOTE]
+
+[U][B]תאריך ושעת פתיחת האשכול:
+[/B][/U][QUOTE]${ff.date}[/QUOTE]
+
+[U][B]פעילות אחרונה:
+[/B][/U][QUOTE]${dddd}[/QUOTE]
+
+[U][B]כתובת מייל של המשתמש:
+[/B][/U][QUOTE]לא נענה[/QUOTE]
+
+[U][B]קישור לתמונת תצלום מסך של האשכול:
+[/B][/U][QUOTE]לא נענה[/QUOTE]
+[/SIZE][/FONT]`
+console.log(msg);
+}
+</script>
