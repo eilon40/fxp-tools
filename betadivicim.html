@@ -30,11 +30,46 @@ dddd.split('אתמול')[1]
 // const html = await fetch('https://fxptest.000webhostapp.com/svs.php?url=https://www.fxp.co.il/showthread.php?t=671257').then(r => r.text())
 // document.body.innerHTML = html;
 // console.log(document.querySelector('.posts .postbit'));
-// html2canvas(document.querySelector('.posts .postbit')).then(canvas => {
-//     console.log(canvas);
-//     document.body.appendChild(canvas)
-// });
+/*html2canvas(document.querySelector('.posts .postbit')).then(canvas => {
+    console.log(canvas.toDataURL());
+    urltoFile(canvas.toDataURL(), 'hello.png','image/png')
+.then(function(file){ 
+var formdata = new FormData();
+formdata.append("fileToUpload", file);
 
+var requestOptions = {
+  method: 'POST',
+  body: formdata,
+  redirect: 'follow'
+};
+
+fetch("https://api.imagesup.co/u", requestOptions)
+  .then(response => response.json())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+});
+
+
+    document.body.appendChild(canvas)
+});
+function urltoFile(url, filename, mimeType){
+    if (url.startsWith('data:')) {
+        var arr = url.split(','),
+            mime = arr[0].match(/:(.*?);/)[1],
+            bstr = atob(arr[arr.length - 1]), 
+            n = bstr.length, 
+            u8arr = new Uint8Array(n);
+        while(n--){
+            u8arr[n] = bstr.charCodeAt(n);
+        }
+        var file = new File([u8arr], filename, {type:mime || mimeType});
+        return Promise.resolve(file);
+    }
+    return fetch(url)
+        .then(res => res.arrayBuffer())
+        .then(buf => new File([buf], filename,{type:mimeType}));
+}
+*/
 let msg = `
 [FONT=open sans hebrew][COLOR=#008080][SIZE=5][B]דיווח קריטי [/B][/SIZE][/COLOR][SIZE=5][B]גולש אובדני[/B][/SIZE]
 
