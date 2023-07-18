@@ -1,0 +1,1438 @@
+[TABLE="width: 500, align: right"]
+[TR]
+[TD][FONT=open sans hebrew]שם פורום וקישור לאשכול[/FONT][/TD]
+[TD][FONT=open sans hebrew]הוכרז?[/FONT][/TD]
+[TD][FONT=open sans hebrew]נקי מהכרזות ישנות[/FONT][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=10"][FONT=open sans hebrew]דיון, עזרה וייעוץ[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]הפורום של מור[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]על כל שאלה תשובה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פילוסופיות ותאוריות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]דיבורים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ייעוץ לעבודה ודרושים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מלב אל לב[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]גאים בעצמנו[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ייעוץ מיני[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פיקאפ ופיתוח עצמי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אתאיזם[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מיסטיקה ומאגיה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]סקרים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]דיונים ואקטואליה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]יהדות ותורה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בעלי חיים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]צמחונות וטבעונות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]צבא וביטחון[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]טיולים בארץ ובחו"ל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תחבורה ציבורית[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]הנצחה והזדהות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=5"][FONT=open sans hebrew]פנאי ובידור[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ויראלי ברשת[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]השבוע שהיה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קשקושים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תמונות הגולשים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]רשתות חברתיות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אופנה וטיפוח אישי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פירסינג וקעקועים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ספרים וכתיבה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אוכל ומתכונים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חיי לילה ובילויים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]משחקייה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – פנאי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=252"][FONT=open sans hebrew]לימודים והשכלה[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]משפטים ואכיפת חוק[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]לימודים ובית ספר[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בגרויות ומה שביניהן[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]השפה העברית[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אנגלית ושפות זרות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]היסטוריה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מתמטיקה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פיזיקה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ביולוגיה ומדעי הרפואה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כימיה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מדעי המחשב והנדסת חשמל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מדע וחלל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פסיכומטרי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]השכלה גבוהה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כלכלה ועסקים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חידות ואתגרי חשיבה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]לימודי נהיגה ותאוריה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – לימודים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=564"][FONT=open sans hebrew]תחביבים[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תחביבים – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]גינון וגידול צמחים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תנועות נוער ומחויבות אישית[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]עשה זאת בעצמך[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]רחפנים, טיסנים ומכוניות שלט[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]צילום ועריכת סרטים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קונספירציות ומיתוסים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]דו־גלגלי וטרקטורונים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]שחמט ומשחקי לוח[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מוטוריקה ורכב[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קורקינטים ואופניים חשמליים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תעופה וסימולטורים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – תחביבים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=454"][FONT=open sans hebrew]מוזיקה[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חוגגים אירוויזיון 2023[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מוזיקה כללית[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כותבים שירים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]יוצרים מוזיקה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פופ ו־RnB[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מוזיקה ישראלית[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מזרחית ודיכאון[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מוזיקה שחורה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מוזיקה אלקטרונית[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]רוק ומטאל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כלי נגינה וציוד סאונד[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – מוזיקה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=3"][FONT=open sans hebrew]מחשבים ואינטרנט[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בינה מלאכותית – AI[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תכנות ובניית אתרים – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חדשות מחשבים וחומרה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]FullStack[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מחשבים, אינטרנט ותוכנה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קניות ברשת[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קהילת NFT ישראל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תמיכה טכנית – מחשבים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]שפות עיליות ואסמבלי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Python +[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מערכות הפעלה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תוכנות להורדה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בקשת תוכנות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]סחר ברשת[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מטבעות דיגיטליים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אבטחת מידע[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=162"][FONT=open sans hebrew]טכנולוגיה[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חדשות טכנולוגיה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]טכנולוגיה – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אנדרואיד – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Apple \ אפל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מכשירי Samsung[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מציאות מדומה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]iPhone[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מכשירים סלולריים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]גאדג'טים ואביזרים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אביזרי שמע[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]טלוויזיות ומסכים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – טכנולוגיה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=503"][FONT=open sans hebrew]חומרה[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חדשות חומרה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חומרה – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תמיכה טכנית – חומרה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מעבדים ולוחות אם[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]זיכרונות RAM, כוננים קשיחים ו־SSD[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כרטיסי מסך[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]‫מארזים, מודינג, ספקי כוח,‬‎ קירור ו-OC[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מחשבים ניידים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מפרטי מחשב[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ציוד היקפי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]רשתות ואינטרנט[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – חומרה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=9"][FONT=open sans hebrew]אוהדים בחו"ל[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אוהדים בחו''ל – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]NBA ויורוליג[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פריז סן־ז'רמן[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ברצלונה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]באיירן מינכן[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ריאל מדריד[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מנצ'סטר יונייטד[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]טוטנהאם[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מנצ'סטר סיטי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אתלטיקו מדריד[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]צ'לסי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ארסנל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ליברפול[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]יובנטוס[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=172"][FONT=open sans hebrew]אוהדים בארץ[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אוהדים בארץ – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כדורסל בארץ – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מכבי חיפה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]הפועל באר שבע[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בית"ר ירושלים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מכבי תל אביב[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]הפועל תל אביב[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מכבי נתניה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]מכבי תל אביב כדורסל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=12"][FONT=open sans hebrew]ספורט ובריאות[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אירוח מאמן כושר ומפתח גוף[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בריאות ותזונה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כושר ופיתוח הגוף[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Street Workout[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אומנויות לחימה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]ספורט אתגרי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]משחקי כדור[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]היאבקות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – ספורט[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=322"][FONT=open sans hebrew]אנימה וסרטים[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קולנוע וסרטים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בקשות סרטים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]אנימה ומנגה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בקשות אנימה ומנגה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]וואן פיס[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]נארוטו[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פוקימון[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]דרגון בול[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]YouTube[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=167"][FONT=open sans hebrew]סדרות טלוויזיה[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]האח הגדול[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]סדרות ישראליות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]סדרות חו"ל[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]הישרדות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]רוקדים עם כוכבים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Netflix ושירותי סטרימינג[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]כתוביות ותרגומים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]סדרות אנימציה ונוסטלגיה[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Marvel ,DC וגיבורי על[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]המתים המהלכים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]שקרניות קטנות ויפות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=13"][FONT=open sans hebrew]משחקי פעולה[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]FXP Deathmatch[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]פעולה – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]GTA[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]CS:GO[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Valorant[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Rainbow Six Siege[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Fortnite[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Apex Legends[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]PUBG[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Assassin's Creed[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Far Cry[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Call of Duty[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Battlefield[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=141"][FONT=open sans hebrew]משחקי תפקידים[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תפקידים – כללי[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Maple Story[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Lost Ark[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Diablo IV[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]New World[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Final Fantasy XIV[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]League of Legends[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Genshin Impact[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Overwatch 2[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Black Desert Online[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Dota 2[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]World of Warcraft[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]MU Online[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD="colspan: 3, align: center"][URL="https://www.fxp.co.il/forumdisplay.php?f=134"][FONT=open sans hebrew]גיימינג[/FONT][/URL][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]חדשות גיימינג[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Gamer[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Minecraft[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]נינטנדו סוויץ' \ Nintendo Switch[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]PlayStation 4[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]PlayStation 5[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Xbox Series X[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]תמיכה טכנית – משחקים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]בקשת משחקים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]Steam וחנויות דיגיטליות[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]FIFA[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[TR]
+[TD][FONT=open sans hebrew]קנייה ומכירה – משחקים[/FONT][/TD]
+[TD][/TD]
+[TD][/TD]
+[/TR]
+[/TABLE]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[IMG]https://i.imagesup.co/images2/e8260564a255a7209fd2a2b7387a7fa0f183bd88.gif[/IMG]
